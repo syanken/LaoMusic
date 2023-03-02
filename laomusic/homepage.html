@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LAOMusic</title>
+    <meta charset="utf-8">
+    <style>
+        * {
+            margin: 0;
+            user-select: none;
+        }
+
+        .head>div{
+            height: 8vw;
+            line-height: 8vw;
+            float: left;
+            width: 10vw;
+            text-align: center;
+            font-weight:900;
+        }
+
+        .dropdown-content {
+            display: none;
+            height: 16vw;
+            box-shadow  :0vw 1vw 16px 0px rgba(0,0,0,0.2)    
+         }
+
+        .head div:hover .dropdown-content{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: pink;height: 8vw;width: 100%;" class="head"> 
+        <div style="width: 20%;">
+            <h1 style="color: brown;">LAOMusic</h1>
+        </div>
+        <div >首页
+            <div class="dropdown-content">
+                <p>clr是大佬</p>
+                <p>clr是大佬</p>
+            </div>
+        </div>
+        <div>midi
+            <div class="dropdown-content">
+                <div onclick="window.open('midishop.html','_self')"><p>midi商店</p></div>
+                <p>clr是大佬</p>
+            </div>
+        </div>
+        <div>编曲
+            <div class="dropdown-content">
+                <p>clr是大佬</p>
+                <p>clr是大佬</p>
+            </div>
+        </div>
+        <div> 联系大佬
+            <div class="dropdown-content">
+                <p>clr是大佬</p>
+                <p>clr是大佬</p>
+            </div>
+        </div>    
+
+    </div>
+</body>
+</html>
